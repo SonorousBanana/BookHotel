@@ -1,0 +1,264 @@
+.fakeimg {
+    
+    font-weight: bold;
+    
+    
+  }
+  .row {
+    
+    margin-bottom: auto!important;
+   
+  }
+  .con1{
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+    margin-left: 2%!important;
+    margin-right: 2% !important;
+    text-align: center !important;
+  }
+
+  .but{
+	
+  margin-top: -13% !important;
+  margin-left: -12% !important;
+  margin-bottom: 12%;;
+  font-weight: bold;
+
+}
+
+.btn-light{
+	border: none;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 30px;
+	cursor: pointer;
+  margin-top: -18%;
+  margin-left: 2%;
+  font-weight: bold;
+  color: #3b482f;
+}
+
+.info {
+  background: url("images/bgroom.jpg") no-repeat fixed;
+  height: 100%;
+  overflow: hidden;
+  color: #FFFFFF;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 7%;
+  margin-left: 3%;
+  margin-right: 3%;
+ }
+ 
+ .overlay {
+  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  height: 100%;
+ }
+
+ .t1{
+  text-align: right;
+  color: rgb(101, 132, 101)!important;
+  font-family: arial;
+  font-stretch: ultra-condensed;
+  font-weight: bold;
+ }
+
+ .t2{
+  text-align: right;
+  color: black;
+  font-weight: lighter;
+ }
+
+ .t3{
+  text-align: right;
+  font-weight: bold;
+  color: black;
+  font-family: arial;
+  font-stretch: ultra-condensed;
+
+ }
+
+ .t4{
+  text-align: justify;
+  color: black;
+  font-weight: lighter;
+
+ }
+
+ #img1{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+ }
+
+ .t5{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: arial;
+  font-stretch: ultra-condensed;
+  margin-top: -10%;
+ }
+
+ .t6{
+  color: black;
+ }
+
+ #card-body{
+  color: black;
+  text-align: center;
+  margin-top: -10%;
+  display: block;
+ }
+
+ #btndia{
+  text-align: center;
+  background-color: #3b482f;
+	border: none;
+	color: white;
+  padding: 3% 31%;
+	text-decoration: none;
+	cursor: pointer;
+  margin-bottom: 3%;
+ }
+
+ #hold{
+  color: black;
+  text-align: center;
+  margin-top: -10%;
+  display: none;
+ }
+
+
+
+ #btnsuc:hover {
+	
+	background-color:#354035;
+}
+
+#btnsuc{
+  margin-left: auto;
+  background-color: #3b482f;
+  border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	cursor: pointer;
+  font-weight: bold;
+
+ 
+
+}
+
+#btninf:hover {
+	
+	background-color:#d5d5d5;
+}
+
+#btninf{
+  margin-left: 3%;
+  background-color: #f8f8f8;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 16px 32px;
+	text-decoration: none;
+	cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  
+  position: relative;
+  -webkit-transition: all 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  transition: all 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+#btnsuc1{
+  margin-left: auto;
+  background-color: #3b482f;
+	border: none;
+	color: white;
+	padding: 4px 30%;
+	text-decoration: none;
+	cursor: pointer;
+  margin-bottom: 5%;
+}
+
+#btnsuc1:hover {
+	
+	background-color:#354035;
+}
+
+#btnsuc:before,
+#btnsuc:after {
+  position: absolute;
+  content: attr(data-title);
+  z-index: -1;
+}
+
+#btnsuc:before {
+  top: -0.1em;
+  right: -0.1em;
+ 
+}
+
+#btnsuc:after {
+  bottom: -0.1em;
+  left: -0.1em;
+ 
+}
+
+#btnsuc:hover {
+  background-color: #354035;
+  position: relative;
+  -webkit-transition: all 0.5s cubic-bezier(0.5, 0.5, 0.5, 1);
+  transition: all 0.5s cubic-bezier(0.5, 0.5, 0.5, 1);
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0.05em 0.05em 0.1em rgba(255, 255, 255, 0.5);
+ 
+}
+
+#btnsuc:hover:before {
+  top: 0;
+  right: 0;
+}
+#btnsuc:hover:after {
+  bottom: 0;
+  left: 0;
+}
+
+
+#btninf:before,
+#btninf:after {
+  position: absolute;
+  content: attr(data-title);
+  z-index: -1;
+}
+
+#btninf:before {
+  top: -0.1em;
+  right: -0.1em;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#btninf:after {
+  bottom: -0.1em;
+  left: -0.1em;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#btninf:hover {
+  background-color: #dadada;
+  box-shadow: 0.05em 0.05em 0.1em rgba(0,0,0,0.5); 
+}
+
+#btninf:hover:before {
+  top: 0;
+  right: 0;
+}
+#btninf:hover:after {
+  bottom: 0;
+  left: 0;
+}
