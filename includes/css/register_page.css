@@ -1,0 +1,28 @@
+ 
+
+.eg_register_form{
+    margin: 22px auto;
+}
+.eg_register_cnt .eg_register_form input.form-control{
+  margin: 10px 0 !important;
+}
+
+.eg_reg_btn{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background: #2e3d13;
+    border-radius: 5px;
+  }
+
+ 
+  .eg_register_label{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .0625em;
+  }

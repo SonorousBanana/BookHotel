@@ -1,0 +1,62 @@
+.eg_admin_wrapper {
+  margin-top: 5rem !important;
+}
+
+.eg_th {
+  background: black !important;
+  color: #fff;
+}
+
+.eg_pending_msg {
+  background: #000;
+  text-align: center;
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.eg_request_table {
+  margin: 50px 0;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 0px 5px #e3e3e3 !;
+}
+
+.eg_reg_btn {
+  background-color: #a89968;
+  border: 1px solid #a89968;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .125em;
+  overflow: hidden;
+  padding: .6rem 2.4rem;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin: 10px 0;
+}
+
+.eg_delete_btn {
+  background: #840b0b;
+  padding: 8px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+
+  vertical-align: middle !important;
+  text-align: center;
+
+}

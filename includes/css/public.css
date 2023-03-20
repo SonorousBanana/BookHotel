@@ -1,0 +1,94 @@
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.fa{
+    font-family: 'FontAwesome' !important;
+  }
+
+  .glyphicon {
+    font-family: "Glyphicons Halflings" !important;
+  }
+
+/* Trick: */
+body {
+    position: relative;
+  }
+  
+  body::after {
+    content: '';
+    display: block;
+    height: 100vh; /* Set same as footer's height */
+  }
+
+.egr_navbar {
+    background-color: #f8f9fa !important;
+    box-shadow: 0px 5px 5px #6c757d6b;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+.egr_navbar a {
+    color: #000 !important;
+}
+
+.eg_logo_link {
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
+
+.eg_public_body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    width: 80% !important;
+    margin: 0 auto;
+}
+
+i.fas {
+    font-family: fontAwesome;
+}
+
+/* -------------------- footer -------------------- */
+.eg_footer_wrapper {
+    background: #242424 !important;
+    width: 100%;
+    padding: 4rem 8rem;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height: 40rem;
+    border-top: 1px solid #b09776;
+    box-shadow: 8px 5px 5px 6px #242424;
+  }
+
+  .eg_footer_wrapper a {
+    color: #848484;
+    font-size: 16px;
+    text-decoration: none !important;
+  }
+
+  .eg_footer_title {
+    color: #b09776;
+    font-weight: 500;
+  }
+
+  .egr_custom_title h3::after {
+    display: block;
+    position: relative;
+    width: 4rem;
+    height: 3px;
+    content: "";
+    border-radius: 2px;
+    background-color: #b09776;
+    margin-top: 10px;
+  }

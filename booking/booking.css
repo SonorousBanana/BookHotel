@@ -1,0 +1,12 @@
+body {
+    background-image: url("../includes/images/home_img_3.jpg");
+    background-color: #cccccc;
+}
+
+#mail{
+    visibility: hidden;
+    display: none;
+}
+.col-sm-4{
+     text-align: center;
+}
