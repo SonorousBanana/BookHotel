@@ -1,1 +1,1 @@
-Το σαιτ ονομάζεται panorama hotel και τα αρχεια πρέπει να μπούν σε εναν φάκελο ΄panorama_hotel΄ ο οποίος θα βρίσκεται μέσα στο htdocs του xamp
+Site is called panorama hotel, folders and files must be placed in a folder ΄panorama_hotel΄ which will be located in the htdocs of xamp
